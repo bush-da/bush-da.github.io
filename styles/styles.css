@@ -52,32 +52,6 @@ header, section, footer {
     text-decoration: underline;
 }
 
-/* Hero Section */
-.hero {
-    background: url('hero-bg.jpg') no-repeat center center;
-    background-size: cover;
-    color: #fff;
-    text-align: center;
-    padding: 100px 20px;
-    margin-top: 60px; /* Adjust for header height */
-}
-
-.hero-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.cta-button {
-    display: inline-block;
-    background-color: #007bff;
-    color: #fff;
-    padding: 15px 25px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-    margin-top: 20px;
-}
-
 /* Featured Posts */
 .featured-posts {
     background: #f9f9f9;
