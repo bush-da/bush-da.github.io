@@ -37,10 +37,14 @@ header, section, footer {
     font-size: 24px;
 }
 
+.nav {
+    display: flex;
+    gap: 15px; /* Adjust spacing between links */
+}
+
 .nav a {
     color: #fff;
     text-decoration: none;
-    margin: 0 15px;
     font-size: 18px;
 }
 
@@ -124,28 +128,4 @@ header, section, footer {
     display: flex;
     justify-content: center;
     gap: 10px;
-}
-
-input[type="email"] {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 250px;
-}
-
-button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #fff;
-    color: #007bff;
-    cursor: pointer;
-}
-
-/* Footer */
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 20px;
 }
