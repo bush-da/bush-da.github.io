@@ -83,12 +83,35 @@ main {
     margin-bottom: 20px;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
+    position: relative;
 }
 
 .blog-post:hover {
     border: 1px solid #007bff;
     background-color: #f0f8ff;
     transform: translateY(-5px);
+}
+/* Tags Container */
+.tag {
+    display: inline-flex;          /* Use inline-flex to align items horizontally */
+    flex-wrap: wrap;               /* Allows wrapping to a new line if needed */
+    gap: 5px;                      /* Adds space between each tag */
+    justify-content: flex-end;    /* Align tags to the right side */
+    margin-top: 10px;              /* Add space above the tags */
+    margin-bottom: 10px;           /* Add space below the tags */
+}
+
+/* Individual Tag Style */
+.tag span {
+    display: inline-block;         /* Keeps the span elements as inline-blocks */
+    background-color: #007bff;     /* Background color for the tag */
+    color: white;                  /* Text color */
+    padding: 5px 10px;             /* Padding inside the tag */
+    border-radius: 3px;            /* Rounded corners */
+    font-size: 12px;               /* Font size */
+    font-weight: bold;             /* Font weight */
+    cursor: pointer;               /* Pointer cursor on hover */
+    border: 1px solid #007bff;     /* Border around each tag */
 }
 
 /* Post Header */
@@ -122,6 +145,11 @@ main {
     color: #666;
 }
 
+
+/* Hover effect for the tag */
+.tag:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
 /* Style for Like, Comment, and Share image buttons */
 .post-actions {
     margin-top: 10px;
@@ -163,6 +191,7 @@ main {
     color: #fff;
     text-decoration: none;
 }
+
 
 .sidebar {
     width: 30%;
